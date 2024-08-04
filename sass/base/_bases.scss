@@ -1,0 +1,41 @@
+html{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/*main*/
+.main, .populares {
+    margin-right: 3.125em;
+    margin-left: 11.8em;  
+    font-family: "Poppins", sans-serif;
+  }
+/*formulario*/
+.main_from{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    
+}
+/*newsletter*/
+.newsletter__contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-top: 40px;
+
+  }
+  .section__contenedor{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 60px;
+   }
+   .related-courses {
+    padding: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poppins", sans-serif;
+  }
+

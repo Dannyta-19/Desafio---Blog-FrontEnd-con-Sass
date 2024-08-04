@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío - Blog FrontEnd con Sass</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/8_3-front-end-development-1.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="header">
+          <a class="header__a" href="#"><img class="header__img"src="assets/img/logos/adl.png" alt="Blog FrontEnd Logo">Blog FrontEnd</a>
+        </div>
+        <hr class="header__lineageneral">
+      </header>    
+<!-- navbar-->
+      <main class="main">
+        <h1 class="main__title"> Novedades</h1>
+        <div class="main__container">
+            <section class="main__container--novedadprincipal" >
+             <a href="detallepost.html"><img src="assets/img/posts/bootstrap.png"  class="main__img--novedadesprincipal" ></a> 
+                <br>
+                <h4 class=" main__h4--novedadesprincipales">24 de noviembre, 2022</h4>
+                <h3 class="main__h3--novedadesprincipales">Modifica el tema de Bootstrap con variables CSS</h3>
+                <a class="mainnovedades__a--secundaria" href="#"><img class="mainnovedades__logo--desafiolatam" src="assets/img/logos/adl.png" alt="Blog FrontEnd Logo">Desafío Latam</a>
+            </section>
+<!-- contenedor principal secundario -->
+            <section class="main__containernovedadesecundarias">
+                <div class="main__cardsnovedadesecundarias">
+                    <img src="assets/img/posts/Herencia-JS.png"  class="main__img--novedadessecundaria">
+                    <div class="mainnovedades__contenidocardsecundaria">
+                        <h4 class="main__h4--secundaria">24 de noviembre, 2022</h4>
+                        <h3 class="main__h3--secundaria">Herencia en <br>JavaScript</h3>
+                        <a class="novedades__a--secundaria" href="#"><img class="novedades__logo--desafiopequeño" src="assets/img/logos/adl.png" alt="Blog FrontEnd Logo">Desafío Latam</a> 
+                    </div>
+                </div>
+                <div class="main__cardsnovedadesecundarias">
+                    <img src="assets/img/posts/Etiquetas-semánticas-HTML.png" class="main__img--novedadessecundaria main__img--modificacion">
+                    <div class="mainnovedades__contenidocardsecundaria">
+                        <h4 class="main__h4--secundaria">24 de noviembre, 2022</h4>
+                        <h3 class=" main__h3--secundaria">Etiquetas <br> semánticas</h3>
+                        <a class="novedades__a--secundaria" href="#"><img class="novedades__logo--desafiopequeño" src="assets/img/logos/adl.png" alt="Blog FrontEnd Logo">Desafío Latam</a>         
+                    </div>
+                </div>
+                <div class="main__cardsnovedadesecundarias">
+                    <img src="assets/img/posts/reactComponents.png" class="main__img--novedadessecundaria">
+                    <div class="mainnovedades__contenidocardsecundaria">
+                        <h4 class="main__h4--secundaria">24 de noviembre, 2022</h4>
+                        <h3 class="main__h3--secundaria">Componentes <br> React</h3>
+                        <a class="novedades__a--secundaria" href="#"><img class="novedades__logo--desafiopequeño" src="assets/img/logos/adl.png" alt="Blog FrontEnd Logo">Desafío Latam</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+      </main>
+    
+      <hr class="header__lineageneral">
+<!-- contenedor secundario populares y categorias -->
+
+      <section class="populares">
+          <h1 class=" populares__title--populares">Populares</h1>
+<!-- contenedor secundario populares-->
+        <div class="popular__contenedor">
+            <div class="populares__contenedorcard">
+                <section class="popularescontenedor__card">
+                    <img src="assets/img/posts/vue-components.png" class="populares__img">
+                    <br>
+                    <h4 class="main__h4--secundaria">24 de noviembre, 2022</h4>
+                    <h3 class=" main__h3--secundaria">Componentes Vue</h3>
+                  <a class="populares__a--secundaria" href="#"><img class="populares__logo--desafiopequeño" src="assets/img/logos/adl.png" alt="Blog FrontEnd Logo">Desafío Latam</a>
+                    </section>
+  
+                <section class="popularescontenedor__card">
+                    <div class="content__card">
+                        <img src="assets/img/posts/api-js.png" class="populares__img ">
+                    </div>
+                    <h4 class="main__h4--secundaria ">24 de noviembre, 2022</h4>
+                    <h3 class="main__h3--secundaria">Consumo de API con <br>JavaScript</h3>
+                      <a class="populares__a--secundaria" href="#"><img class="populares__logo--desafiopequeño" src="assets/img/logos/adl.png" alt="Blog FrontEnd Logo">Desafío Latam</a>
+  
+                </section>
+  
+                <section class="popularescontenedor__card">
+                    <div class="content__card">
+                        <img src="assets/img/posts/sass.jpg" class="populares__img">
+                    </div>
+                    <h4 class="main__h4--secundaria">24 de noviembre, 2022</h4>
+                    <h3 class="main__h3--secundaria">CSS reutilizable con Sass</h3>
+                      <a class="populares__a--secundaria" href="#"><img class="populares__logo--desafiopequeño" src="assets/img/logos/adl.png" alt="Blog FrontEnd Logo">Desafío Latam</a>
+                </section>
+                <section class="popularescontenedor__card">
+                    <div class="content__card">
+                        <img src="assets/img/posts/bootstrap.png" class="populares__img populares__img--distancia">
+                    </div>
+                    <h4 class="main__h4--secundaria">24 de noviembre, 2022</h4>
+                    <h3 class="main__h3--secundaria">Componentes Bootstrap</h3>
+                    <a class="populares__a--secundaria" href="#"><img class="populares__logo--desafiopequeño" src="assets/img/logos/adl.png" alt="Blog FrontEnd Logo">Desafío Latam</a>
+  
+                </section>
+            </div>
+    <!-- contenedor secundario categorias -->
+    <section class="populares">
+     
+            <aside class="categorias__container">
+  
+                  <h1 class="populares__title--secundario">Categorias</h1>
+                <div class="container__categoria">
+                    <div class="categorias__box categorias__box--html">
+                        <img class="categorias__box--img" src="assets/img/logos/html.png" alt="" />
+                        <h3 class="categorias__box--h3">HTML</h3>
+                    </div>
+                    <div class="categorias__box categorias__box--css">
+                        <img class="categorias__box--img" src="assets/img/logos/css.png" alt="" />
+                        <h3 class="categorias__box--h3">CSS</h3>
+                    </div>
+                    <div class="categorias__box categorias__box--js">
+                        <img class="categorias__box--img" src="assets/img/logos/js.png" alt="" />
+                        <h3 class="categorias__box--h3">JavaScript</h3>
+                    </div>
+                    <div class="categorias__box categorias__box--react">
+                        <img class="categorias__box--img" src="assets/img/logos/react.png" alt="" />
+                        <h3 class="categorias__box--h3">React</h3>
+                    </div>
+                    <div class="categorias__box categorias__box--vue">
+                        <img class="categorias__box--img" src="assets/img/logos/vue.png" alt="" />
+                        <h3 class="categorias__box--h3">Vue</h3>
+                    </div>
+                    <div class="categorias__box categorias__box--bootstrap">
+                        <img class="categorias__box--img" src="assets/img/logos/bootstrap-logo.png" alt="" />
+                        <h3 class="categorias__box--h3">Bootstrap</h3>
+                    </div>
+                    <a><h4 class="categorias__text--h4">Ver todas las categorías ></h4></a>
+                </div>
+              </aside>
+        </div>
+      </section>
+  
+
+
+
+
+      <section class="newsletter__contenedor">
+        <div class="newsletter">
+            <h2 class="newsletter__title">Mantente actualizado sobre el <br> Desarrollo Front End</h2>
+            <div class="newsletter__form">
+              <input type="email" class="newsletter__input" placeholder="Tu email">
+              <a  class="newsletter__button" href="login.html">Suscríbete</a>
+            </div>
+          </div>
+        </section>  
+  
+    <hr class="header__lineageneral">
+  <footer>
+    <div class="footer__container">
+        <a class="footer__link" href="#"><img class="footer__img" src="assets/img/logos/adl.png" alt="Blog FrontEnd Logo">Blog FrontEnd</a>
+        <p class="footer__text">Desafío Latam - 2023</p>
+    </div>
+</footer>
+
+
+ 
+     
+
+
+</body>
+</html>

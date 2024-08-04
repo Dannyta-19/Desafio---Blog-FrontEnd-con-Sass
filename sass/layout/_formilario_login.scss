@@ -1,0 +1,28 @@
+.from {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+&__container{
+    padding: 1em; 
+}
+&__h1{
+    text-align: center;
+    margin-bottom: 3.7rem; 
+    font-size: 3em;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+ }
+
+.input__form {
+    width: 100%;
+    padding: 0.94em; 
+    margin: 0.31em 0 1.38em 0; 
+    display: block;
+    border: 0.06em solid #d4d1d1; 
+    border-radius: 0.94em; 
+    font-size: 1.56em; 
+    color: #d4d1d1;
+}

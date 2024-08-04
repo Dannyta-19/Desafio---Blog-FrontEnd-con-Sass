@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.contenedor {
+  max-width: 128rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #000;
+  margin: 0 0 0 0;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.barra {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.barra__logo img {
+  height: 5.5rem;
+  border-radius: 1rem;
+}
+
+.barra__heading {
+  margin-bottom: 0;
+}
+
+.header {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */

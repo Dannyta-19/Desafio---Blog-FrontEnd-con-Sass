@@ -1,0 +1,241 @@
+@charset "UTF-8";
+.main__container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2.5em;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+}
+
+.main__title {
+  font-weight: 700;
+  font-size: 3.5rem;
+  padding-top: 1.25em;
+  margin-left: 1vw;
+  width: 100%;
+}
+
+.main__container--novedadprincipal {
+  height: -moz-max-content;
+  height: max-content;
+  padding: 1.875em;
+  margin-right: 1.25em;
+}
+
+.main__img--novedadesprincipal {
+  width: 50vw;
+  height: 20vw;
+  border-radius: 1.25em;
+  margin-top: 1.25em;
+  cursor: pointer;
+}
+
+.main__h4--novedadesprincipales {
+  font-weight: 400;
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
+}
+
+.main__h3--novedadesprincipales {
+  font-weight: 700;
+  font-size: 2.1875em;
+  margin-bottom: 0.1em;
+  margin-top: 0.5em;
+}
+
+.mainnovedades__a--secundaria {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.mainnovedades__logo--desafiolatam {
+  border-radius: 50%;
+  width: 5%;
+  margin-right: 0.9375em;
+  vertical-align: middle;
+  box-shadow: 0px 0.4375em 0.4375em -0.0625em rgba(0, 0, 0, 0.3);
+}
+
+.main__containernovedadesecundarias {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.875em;
+  margin-left: 5vw;
+}
+
+.main__cardsnovedadesecundarias {
+  display: inline-flex;
+  margin-bottom: 3em;
+  margin-top: 0, 3vw;
+}
+
+.main__img--novedadessecundaria {
+  width: 13vw;
+  height: 7vw;
+  border-radius: 1.25em;
+  margin-right: 1vw;
+}
+
+.main__img--modificacion {
+  width: 25vw;
+  margin-right: 1vw;
+}
+
+.mainnovedades__contenidocardsecundaria {
+  padding-top: 0.7em;
+}
+
+.main__h4--secundaria {
+  font-weight: 400;
+  font-size: 1, 5em;
+  margin-bottom: 1em;
+}
+
+.main__h3--secundaria {
+  font-weight: 700;
+  font-size: 1.8em;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  margin-top: 0.25em;
+}
+
+.novedades__a--secundaria {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.novedades__logo--desafiopequeño {
+  border-radius: 50%;
+  width: 6%;
+  margin-right: 0.9375em;
+  vertical-align: middle;
+  box-shadow: 0px 0.4375em 0.4375em -0.0625em rgba(0, 0, 0, 0.3);
+}
+
+/*populares*/
+.popular__contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.populares__title--populares {
+  font-weight: 700;
+  font-size: 3.5em;
+  position: relative;
+}
+
+.populares__title--secundario {
+  font-weight: 700;
+  font-size: 3.5em;
+  padding-left: 4.5em;
+  position: absolute;
+  right: 30vw;
+  bottom: -6vw;
+}
+.populares__title--secundario--populares {
+  margin-left: 1em;
+}
+
+.populares__contenedorcard {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 7vw;
+}
+
+.popularescontenedor__card {
+  width: -moz-min-content;
+  width: min-content;
+  height: 25em;
+  margin: 3em;
+  margin-top: 90px;
+}
+
+.populares__img {
+  width: 17vw;
+  height: 10vw;
+  border-radius: 1.25em;
+}
+.populares__img--distancia {
+  margin-right: 90px;
+}
+
+.populares__a--secundaria {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.populares__logo--desafiopequeño {
+  border-radius: 50%;
+  width: 9%;
+  margin-right: 0.9375em;
+  vertical-align: middle;
+  box-shadow: 0px 0.4375em 0.4375em -0.0625em rgba(0, 0, 0, 0.3);
+}
+
+/* Categorías */
+.container__categoria {
+  width: 20vw;
+}
+
+.categorias__box {
+  margin-top: 3vw;
+  margin-left: 10px;
+  width: 100%;
+  height: 4vw;
+  border-radius: 0.3125em;
+  margin-bottom: 7px;
+  border-radius: 0.625em;
+}
+
+.categorias__box--html {
+  background-color: #E93E30;
+}
+
+.categorias__box--css {
+  background-color: #299ED5;
+}
+
+.categorias__box--js {
+  background-color: #F7E018;
+}
+
+.categorias__box--react {
+  background-color: #292C33;
+}
+
+.categorias__box--vue {
+  background-color: #67C770;
+}
+
+.categorias__box--bootstrap {
+  background-color: #563D7C;
+}
+
+.categorias__box--img {
+  height: 100%;
+  position: relative;
+  float: left;
+  border-radius: 0.625em;
+}
+
+.categorias__box--h3 {
+  font-size: 3em;
+  position: relative;
+  float: right;
+  margin-right: 1em;
+  margin-top: 0.7em;
+  color: #fff;
+  font-weight: bold;
+}
+
+.categorias__text--h4 {
+  font-size: 1.8em;
+  margin-left: 9px;
+}/*# sourceMappingURL=card.css.map */

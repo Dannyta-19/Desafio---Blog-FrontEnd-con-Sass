@@ -1,0 +1,32 @@
+/*footer*/
+.footer__link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5em; 
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+    .footer__img {
+      width:4%; 
+      margin-top: 0.625em; 
+      margin-right: 1em; 
+      margin-left: 10em; 
+      vertical-align: middle;
+      border-top-right-radius: 0.3vw; 
+      border-top-left-radius: 0.3vw; 
+      border-bottom-left-radius: 0.3vw; 
+      border-bottom-right-radius: 0.3vw; 
+      box-shadow: 0px 0.4375em 0.4375em -0.0625em rgba(0,0,0,0.3); 
+    }
+    .footer__text {
+      margin-right: 5vw;
+      padding-top: 1.5vw;
+      font-size: 1.5em;
+      font-weight: 400;
+      float: right;
+      font-family: "Poppins", sans-serif;
+      
+
+  
+    }
+  
